@@ -1,0 +1,244 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+/*清除浮动*/
+.clear_float:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*header strat*/
+.header{
+	height: 130px;
+	margin:0 80px;
+	font-weight: bold;
+	color: #666;
+	font-size: 14px;
+}
+.header .header_left{
+	padding-top: 15px;
+	float: left;
+}
+.header .header_right{
+	float: right;
+	height: 110px;
+}
+.header .header_right img{
+	float: right;
+}
+.header .header_right ul{
+	margin: 80px 35px 0 0;
+	clear: both;
+	text-align: center;
+}
+.header .header_right>ul li{
+	display:inline-block;
+	padding:0 25px;
+	border-right: 1px solid #666;
+}
+.header .header_right ul li:last-child{
+	border:none;
+}
+.header_right ul li ol{
+	color: #fff;
+	z-index: 1;
+	background: #999;
+	display:none;
+	position: absolute;
+	text-align: center;
+	margin:1px 0 0 -28px;
+}
+.header_right ul li ol li{
+	display: block!important;
+	width:60px;
+	height: 50px;
+	line-height: 50px;
+	display: relative;
+	border-right: none;
+	border-bottom: 1px solid #fff;
+}
+.header_right ul li:hover ol{
+	display: block;
+}
+.header_right ul li ol li:hover{
+	background: #333;
+}
+/*banner strat*/
+.banner{
+	min-width: 1080px;
+}
+.banner .banner-wrap{
+	height: 500px;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+.banner .banner-img{
+	height: 100%;
+	width: 200%;
+	margin: 0 auto;
+	position: relative;
+}
+.banner .banner-img li{
+	float: left;
+	height: 100%;
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+}
+.banner .banner-img li img{
+	width: 100%;
+	height: 100%;
+}
+.banner-left{
+	width: 61px;
+	height: 61px;
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	cursor: pointer;
+}
+.banner-left img{
+	width: 100%;
+	height: 100%;
+}
+.banner-right{
+	width: 61px;
+	height: 61px;
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	cursor: pointer;
+}
+.banner-right img{
+	width: 100%;
+	height: 100%;
+}
+/*content_first start*/
+.content_first{
+	min-width: 1200px;
+	height: 260px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content_first img{
+	width: 182px;
+	height: 130px;
+	padding:60px 20px;
+}
+.content_first .img_hide{
+	position: relative;
+	bottom: 254px;
+	opacity: 0;
+}
+.content_first .img_hide:hover{
+	opacity: 1;
+}
+/*content_second start*/
+.content_two{
+	width: 100%;
+	background: #eee;
+	text-align: center;
+}
+.content_two p{
+	width: 60%;
+	margin: 20px auto;
+	font-size: 14px;
+	color: #666;
+}
+.content_two .content_two_content{
+	min-width: 1200px;
+	height: 400px;
+}
+.content_two .content_two_content img{
+	padding:10px 8px;
+}
+.two_content_img{
+	position: relative;
+	bottom: 348px;
+}
+.two_content_img:hover{
+	opacity: 0;
+}
+/*content_three strat*/
+.content_two_footer{
+	/*width: 360px;*/
+	height: 540px;
+	background:red;
+	background:url(../images/content_three.png) no-repeat center center;
+}
+.content_two_footer h5{
+	padding-top: 160px;
+}
+.content_two_footer p:last-child{
+	color: #000;
+	font-size: 14px; 
+	padding-top: 40px;
+}
+/*content_three start*/
+.content_three{
+	text-align: center;
+	width: 100%;
+	line-height: 180%;
+}
+.content_three p{
+	padding:40px 0 80px 0;
+}
+.content_three p img{
+	margin-top: 5px;
+}
+.content_three span{
+	display: inline-block;
+}
+.content_three span:nth-child(1){
+	text-indent: 1em;
+	width: 100px;
+	background:url(../images/tele.png) no-repeat left center;
+}
+.content_three span:nth-child(2){
+	text-indent: 4em;
+	width: 185px;
+	background:url(../images/qq.gif) no-repeat left center;
+}
+.content_three span:nth-child(3){
+	text-indent: 3em;
+	width: 200px;
+	background:url(../images/price.png) no-repeat left center;
+}
+.content_three span:nth-child(4){
+	text-indent: 3em;
+	width: 200px;
+	background:url(../images/four.png) no-repeat left center;
+}
+.content_three span:nth-child(5){
+	text-indent: 3em;
+	width:193px;
+	background:url(../images/receive.png) no-repeat left center;
+}
+/*footer start*/
+.footer{
+	width: 100%;
+	height: 200px;
+	background:#999;
+	text-align: center;
+	font-size: 14px;
+}
+.footer>p{
+	color: #333;
+	float: left;
+	margin:160px 0 0 340px;
+}
+.footer dl{
+	height: 180px;
+	margin:20px 160px 0 0;
+	float: right;
+}
+.footer dl dd img{
+	width:120px;
+	height:120px;
+}
+.footer dl dt{
+	color: #fff;
+}
